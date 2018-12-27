@@ -1,0 +1,55 @@
+.elevation-1{
+    @include box-shadow($bmd-shadow-2dp);
+}
+
+.elevation-2{
+    @include box-shadow($bmd-shadow-3dp);
+}
+
+.elevation-3{
+    @include box-shadow($bmd-shadow-4dp);
+}
+
+.elevation-4{
+    @include box-shadow($bmd-shadow-6dp);
+}
+
+.elevation-5{
+    @include box-shadow($bmd-shadow-8dp);
+}
+
+.jumbotron-header {
+    margin-top: 56px;
+    @include box-shadow($bmd-shadow-2dp);
+}
+
+.main-logo-image{
+    max-width: 200px;
+}
+
+.home-section {
+    width: 100%;
+    padding: 90px 0px 150px 0px;
+    text-align: center;
+}
+
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.home-section-spacer {
+    width: 100%;
+    padding: 90px 0px 90px 0px;
+    text-align: center;
+    background-color: $color-primary;
+    color: $color-secondary;
+}
+
+footer{
+    padding: 50px 0 30px;
+}
